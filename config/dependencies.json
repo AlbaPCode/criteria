@@ -1,0 +1,29 @@
+
+{
+  "projects": {
+    "EmployeesAPI": {
+      "version": "1.0.0",
+      "frameworks": {
+        "net6.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication": "[2.2.0, )",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "[6.0.6, )",
+            "Microsoft.AspNetCore.Cors": "[2.2.0, )",
+            "Microsoft.EntityFrameworkCore.SqlServer": "[6.0.6, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[6.0.6, )",
+            "Swashbuckle.AspNetCore": "[6.2.3, )",
+            "System.IdentityModel.Tokens.Jwt": "[6.20.0, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ]
+        }
+      }
+    }
+  }
+}
